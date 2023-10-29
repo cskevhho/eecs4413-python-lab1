@@ -12,7 +12,7 @@ def hello():
     query_param = request.args.get("foo")
     request_uri = request.url
     request_path = request.path
-    app_nzame = app.name
+    app_name = app.name
 
     response_text = f"Client IP: {client_ip}\n"
     response_text += f"Client Port: {client_port}\n"
